@@ -2,69 +2,137 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="google-site-verification" content="qtE9Ao-tZELhr6AmbhDxPH3HKC71RFOK1qX08u0-Ygo" />
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="assets/img/tablogo.png">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Subrat Prasad</title>
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-    <!--     Fonts and icons     -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-    <!-- CSS Files -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+  <link rel="stylesheet" href="css/cover.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <title>Subrat Panda</title>
 </head>
 
-<!--body starts here-->
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top mb-4">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        Subrat Prasad
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<body class="landing-page sidebar-collapse">
+      <div class="collapse navbar-collapse" id="mobile-nav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="profiles.html"> Blogs
+            </a>
+          </li>
+        </ul>
 
-    <h1>Hi! I am Subrat Prasad Panda!</h1>
-    <h3>Working towards development of technologies for better tomorrow</h3>
-    <h5>The page is currently inder maintenance. Please visit later</h5>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-
-
-
-    <!--footer details-->
-    <footer class="footer footer-default">
-        <div class="container">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#pablo">
-                            Contact Me
-                        </a>
-                    </li>
-
-                </ul>
-            </nav>
-            <div class="copyright">
-                &copy;
-                <script>
-                    document.write(new Date().getFullYear())
-                </script>, Developed by
-                <a href="#pablo" target="_blank">Subrat Prasad</a>.
-            </div>
+  <!-- Landing -->
+  <div class="landing">
+    <div class="dark-overlay pt6-ns pt1-m text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 animated fadeIn delay-3s">
+            <h1 class="display-3 mb-4">Hi!</h1>
+            <h1 class="display-4 mb-4">I'm Subrat Prasad Panda.</h1>
+            <p class="lead">Engineer . Developer . Thinker . Curious </p>
+            <a class="f6 link dim ba ph3 pv2 mb2 dib white dim" href="https://www.facebook.com/SubratPrasad0" target="_blank">
+              <i class="fab fa-facebook-f fa-2x"></i></a>
+            <a class="f6 link dim ba ph3 pv2 mb2 dib white dim" href="https://www.linkedin.com/in/subratprasad0/"
+              target="_blank">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a class="f6 link dim ba ph3 pv2 mb2 dib white dim" href="https://github.com/DevSPP" target="_blank">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+            <blockquote class="blockquote align-bottom tr">
+              <p class="mb-0"><i class="fas fa-quote-left"></i> You have to dream before your dreams can come true. <i
+                  class="fas fa-quote-right"></i></p>
+              <footer class="blockquote-footer">A. P. J. Abdul Kalam</footer>
+            </blockquote>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </div>
+  <!--About me-->
+  <section id="about">
+    <div class="row">
+      <div class="col-lg-8 mx-auto tj">
+        <div class="pa3">
+          <p class="h1 tc georgia">About</p>
+        </div>
+        <hr class="w-30 bg-blue">
+        <div class="tc pa3">
+          <img src="img/subrat.jpg" class="br-100 pa1 ba b--black-10 h4 w4 shadow-1 grow" alt="avatar">
+          <p><button type="button" class="btn btn-primary">View PDF Résumé</button></p>
+        </div>
+        <hr>
+        <p class="mb-4 font">Interested towards developing new technologies on Mobile Computing, Computer Vision,
+          Artificial
+          Intelligence. Focusing on contributing to Internet of Things community for advancement smart connected
+          devices.
+          Presently working as Aviation Executive at Hindustan Petroleum Corporation Limited, India; Leading critical
+          role for maintenance-repair equipment, quality control of aviation turbine fuel and manpower management for
+          safe operations to cater fueling services to aircraft.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Experience-->
+
+  <!--Skills-->
+
+  <!--Interest-->
+
+  <!--Project-->
+
+
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white mt-5 p-4 text-center">
+    Copyright &copy; 2018 Subrat Prasad
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
-
-
-<!--   Core JS Files   -->
-<script src="assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
-<script src="assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-<script src="assets/js/plugins/bootstrap-switch.js"></script>
-<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-<script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-<!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
-<script src="assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
-<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
-<script src="assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
 
 </html>
