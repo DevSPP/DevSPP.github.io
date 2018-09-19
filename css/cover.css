@@ -1,13 +1,12 @@
 .font {
   font-family: "ABeeZee", sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 img {
   width: 100%;
-  
 }
-
-
 
 .landing {
   position: relative;
@@ -16,7 +15,6 @@ img {
   background-position: center;
   height: 100vh;
   background-attachment: fixed;
-  
 }
 
 .dark-overlay {
