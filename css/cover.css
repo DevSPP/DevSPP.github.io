@@ -9,8 +9,8 @@ img {
 }
 
 #load {
-  -vendor-animation-duration: 8s;
-  -vendor-animation-delay: 2s;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 2s;
 }
 
 .landing {
