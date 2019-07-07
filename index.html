@@ -6,19 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="google-site-verification" content="falotjeRr_Wh5Te5dkg2sgpqURce3DgieFVhAyoo9w0" />
+ <!-- CSS Files --> 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
     crossorigin="anonymous">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
   <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
-  <link rel="stylesheet" href="css/cover.css">
+  
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <link rel="icon" type="image/png" href="img/logo.png">
   <title>Subrat Panda</title>
+<!-- Java Script Files -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+  
+  <link rel="stylesheet" href="css/cover.css">
+  
+  <script>
+    jQuery(document).ready(function() {
+        jQuery('#loading').fadeOut(1000);
+    });
+  </script>
+
+  
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="0">
+  <div id="loading"></div>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top mb-4">
     <div class="container">
@@ -128,11 +147,8 @@
           Artificial
           Intelligence. Focusing on contributing to Internet of Things community for advancement of smart connected
           devices. <br>
-          <i class="fas fa-check-circle"></i> Presently working as Aviation Executive at Hindustan Petroleum
-          Corporation Limited, India; Leading critical
-          role for maintenance-repair of equipment, quality control of aviation turbine fuel and manpower management
-          for
-          safe operations to cater fueling services to aircraft.
+          <i class="fas fa-check-circle"></i> Presently pursuing M.Tech in Computer Science at ISI Kolkata. Interested to work in the research
+          areas such as Healthcare Informatics and Healthcare Recommender System.
         </p>
         <div class="card text-center dim mv3">
           <div class="card-header font pa0 bg-light-blue">
@@ -183,34 +199,31 @@
           <p class="h1 tc font">Education</p>
         </div>
         <hr class="w-30 bg-blue">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-6 ">
-              <div class="card shadow-3 grow">
-                <div class="card-body">
-                  <h5 class="card-title">National Institute of Technology, Silchar</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">B.Tech Eletronics & Instrumentation Engineering</h6>
-                  <h6>Year: 2012-2016</h6>
-                  <p class="card-text">Grade: 7.92/10</p>
-                  <a href="http://www.nits.ac.in/departments/instru/eie.php" class="card-link">Link</a>
-
-                </div>
-              </div>
+        <div class="list-group mv3 font">
+          <a href="https://www.isical.ac.in/" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Indian Statistical Institute, Kolkata</h5>
+              <small class="text-muted">Jul 2019 to May 2021</small>
             </div>
-            <div class="col-md-6">
-              <div class="card shadow-3 grow">
-                <div class="card-body">
-                  <h5 class="card-title">Jawahar Navodaya Vidyalaya, Cuttack</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Schooling</h6>
-                  <h6>Year: 2006-2012</h6>
-                  <p class="card-text">Grade: CBSE 10th-9.6/10 and CBSE 12th-88.6/100</p>
-                  <a href="http://jnvcuttack.nic.in/" class="card-link">Link</a>
-
-                </div>
-              </div>
+            <p class="mb-1">M.Tech Computer Science</p>
+            <small class="text-muted">Ongoing</small>
+          </a>
+          <a href="http://www.nits.ac.in/" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">National Institute of Technology, Silchar</h5>
+              <small class="text-muted">Aug 2012 to May 2016</small>
             </div>
-
-          </div>
+            <p class="mb-1">B.Tech Electronics and Instrumentation Engineering</p>
+            <small class="text-muted">CPI-7.92</small>
+          </a>
+          <a href="http://jnvcuttack.nic.in/" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Jawahar Navodaya Vidyalaya, Cuttack</h5>
+              <small class="text-muted">Aug 2006 to Apr 2012</small>
+            </div>
+            <p class="mb-1">CBSE, Class 6th to 12th</p>
+            <small class="text-muted">10th Board CPI- 9.7, 12th Board Percentage- 88.6%</small>
+          </a>
         </div>
       </div>
   </section>
@@ -453,12 +466,8 @@
     Copyright &copy; 2019 Subrat Prasad. Chandigarh, India
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-</body>
+  
+
+ </body>
 
 </html>

@@ -1,5 +1,5 @@
 {
-  "name": "profile",
+  "name": "resume",
   "version": "1.0.0",
   "description": "Subrat Profile",
   "main": "index.js",
@@ -8,7 +8,15 @@
   },
   "author": "Subrat Prasad Panda",
   "license": "MIT",
-  "dependencies": {
-    "live-server": "^1.2.0"
-  }
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSPP/devspp.github.io.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/DevSPP/devspp.github.io/issues"
+  },
+  "homepage": "https://github.com/DevSPP/devspp.github.io#readme",
+  "devDependencies": {}
 }
