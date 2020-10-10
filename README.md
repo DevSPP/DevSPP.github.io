@@ -1,2 +1,2 @@
-# DevSPP.github.io
-Personal CV
+# subratpp.github.io
+Personal Profile. Alternate domain:subratprasad.in
